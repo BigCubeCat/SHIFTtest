@@ -1,0 +1,38 @@
+.Search {
+    display: flex;
+    justify-content: flex-end;
+
+    padding-top: 15px;
+    width: 100%;
+}
+
+.SearchField {
+    border: solid;
+    border-radius: 5px;
+
+    display: flex;
+}
+
+.Input {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.Input:focus {
+    outline: none;
+}
+
+.SubmitButton {
+    border: none;
+
+    width: 100px;
+
+    background-color: var(--primary-color);
+    color: var(--stroke-color);
+}
+
+.SubmitButton:active {
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+}
